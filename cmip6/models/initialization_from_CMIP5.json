@@ -1,5 +1,8 @@
 {
     "sam0-unicon": {
+        "toplevel": {
+            "initializedFrom": ""
+        }, 
         "aerosol": {
             "initializedFrom": ""
         }, 
@@ -13,9 +16,6 @@
             "initializedFrom": ""
         }, 
         "seaice": {
-            "initializedFrom": ""
-        }, 
-        "toplevel": {
             "initializedFrom": ""
         }
     }

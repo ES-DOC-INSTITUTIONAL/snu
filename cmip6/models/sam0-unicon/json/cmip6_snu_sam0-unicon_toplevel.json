@@ -1,0 +1,394 @@
+{
+    "mipEra": "cmip6", 
+    "institute": "snu", 
+    "seedingSource": "Spreadsheet", 
+    "sourceID": "sam0-unicon", 
+    "topic": "toplevel", 
+    "content": {
+        "cmip6.toplevel.key_properties.name": {
+            "values": [
+                "Seoul National University Earth System Model Version 0 (SEM0) / SAM0-UNICON"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.keywords": {
+            "values": [
+                "Fully Coupled Global Climate Model"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.overview": {
+            "values": [
+                "The atmospheric component of SEM0 is the Seoul National University Atmospheric Model Version 0 with a Unified Convection Scheme (SAM0-UNICON, Park et al. 2019, Park 2014a,b), which replaces CAM5's shallow and deep convection schemes and revises CAM5's cloud macrophysics scheme (Park et al. 2017).\nThe other components of SEM0 (i.e., ocean, land, land-ice, sea-ice, and coupler) are identical to those of the Community Earth System Model version 1.2 (CESM1.2)."
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.flux_correction.details": {
+            "values": [
+                "None (identical to CESM1.2)"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.genealogy.year_released": {
+            "values": [
+                2017
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.genealogy.CMIP3_parent": {
+            "values": [
+                "None"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.genealogy.CMIP5_parent": {
+            "values": [
+                "None"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.genealogy.CMIP5_differences": {
+            "values": [
+                "None"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.genealogy.previous_name": {
+            "values": [
+                "None"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.software_properties.code_version": {
+            "values": [
+                "SEM0 / SAM0-UNICON"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.software_properties.code_languages": {
+            "values": [
+                "Fortran, C"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.software_properties.components_structure": {
+            "values": [
+                "SEM0 consists of seven geophysical models: atmosphere (SAM0-UNICON), sea-ice (CICE4), land(CLM4.0), river-runoff (RTM), ocean (POP2) and land-ice (RTM), plus a coupler (CPL7) that coordinates the geophysics models time evolution and passes information between them. During the course of a SEM0 run, the model components integrate forward in time, periodically stopping to exchange information with the coupler."
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.software_properties.coupler": {
+            "values": [
+                "Other: CPL7/MCT"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.coupling.atmosphere_double_flux": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.coupling.atmosphere_fluxes_calculation_grid": {
+            "values": [
+                "Ocean grid"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.coupling.atmosphere_relative_winds": {
+            "values": [
+                "Same as CESM 1.2."
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.tuning_applied.description": {
+            "values": [
+                "Refer to Park et.al. 2019."
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.tuning_applied.global_mean_metrics_used": {
+            "values": [
+                "Top-of-the-atmosphere (TOA) radiation flux, shortwave cloud forcing, longwave cloud forcing, global-mean ocean temperature, sea-ice extent, etc."
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.tuning_applied.regional_metrics_used": {
+            "values": [
+                "Precipitation rate at the surface, surface wind stress, etc."
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.tuning_applied.trend_metrics_used": {
+            "values": [
+                "20th century global warming of surface temperature"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.tuning_applied.energy_balance": {
+            "values": [
+                "At the component coupling stage (same as CESM1.2)"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.tuning_applied.fresh_water_balance": {
+            "values": [
+                "Both the coupled system and the individual model components conserve freshwater / salt (same as CESM1.2)."
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.conservation.heat.global": {
+            "values": [
+                "In the coupled configurations, surface heat fluxes are exchanged across the component models in a fully conservative way. In stand-alone configurations, i.e., ocean-only, any changes in heat / temperature content fully reflects what is given to or taken out of the model via boundary fluxes. The heat content of precipitating water is not tracked.\n(same as CESM1.2)"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.conservation.heat.atmos_ocean_interface": {
+            "values": [
+                "All flux exchanges are done in a fully conservative way (same as CESM1.2)."
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.conservation.heat.atmos_land_interface": {
+            "values": [
+                "Heat is conserved through the coupler except that the heat content of precipitating water is not tracked (same as CESM1.2)."
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.conservation.heat.atmos_sea-ice_interface": {
+            "values": [
+                "All flux exchanges are done in a fully conservative way (same as CESM1.2)."
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.conservation.heat.ocean_seaice_interface": {
+            "values": [
+                "All flux exchanges are done in a fully conservative way (same as CESM1.2)."
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.conservation.heat.land_ocean_interface": {
+            "values": [
+                "Stream temperature is not modeled thus there is no heat exchange between the land and the ocean (same as CESM1.2)."
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.conservation.fresh_water.global": {
+            "values": [
+                "All freshwater and salt flux exchanges are fully conserved (same as CESM1.2)."
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.conservation.fresh_water.atmos_ocean_interface": {
+            "values": [
+                "All freshwater flux exchanges are fully conserved (same as CESM1.2)."
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.conservation.fresh_water.atmos_land_interface": {
+            "values": [
+                "Fresh water is conserved through the coupler (same as CESM1.2)."
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.conservation.fresh_water.atmos_sea-ice_interface": {
+            "values": [
+                "All freshwater flux exchanges are fully conserved (same as CESM1.2)."
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.conservation.fresh_water.ocean_seaice_interface": {
+            "values": [
+                "All freshwater and salt flux exchanges are fully conserved (same as CESM1.2)."
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.conservation.fresh_water.runoff": {
+            "values": [
+                "A river routing scheme is used. All liquid and frozen runoff fluxes are sent to the ocean model using conservative mappings (same as CESM1.2)."
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.conservation.fresh_water.iceberg_calving": {
+            "values": [
+                "For runs without an interactive ice sheet (including DECK runs), there is no explicit iceberg calving. Instead, snow capping (see 1.6.3.9) can be thought of as a crude parameterization of iceberg calving; any snow accumulation exceeding a prescribed maximum is routed to the ocean as a solid runoff flux (same as CESM1.2)."
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.conservation.fresh_water.endoreic_basins": {
+            "values": [
+                "Same as CESM1.2"
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.conservation.fresh_water.snow_accumulation": {
+            "values": [
+                "Same as CESM1.2."
+            ]
+        }, 
+        "cmip6.toplevel.key_properties.conservation.salt.ocean_seaice_interface": {
+            "values": [
+                "All salt exchanges between the ocean and sea ice models are done conservatively (same as CESM1.2)."
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.name": {
+            "values": [
+                "RRTMG"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.overview": {
+            "values": [
+                "Refer to Section 2 of Park et al. 2019."
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.greenhouse_gases.CO2.provision": {
+            "values": [
+                "Y: Prescribed concentrations, distributions or time series data"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.greenhouse_gases.CO2.additional_information": {
+            "values": [
+                "Refer to Park et al. 2019."
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.greenhouse_gases.CH4.provision": {
+            "values": [
+                "Y: Prescribed concentrations, distributions or time series data"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.greenhouse_gases.CH4.additional_information": {
+            "values": [
+                "Refer to Park et al. 2019."
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.greenhouse_gases.N2O.provision": {
+            "values": [
+                "Y: Prescribed concentrations, distributions or time series data"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.greenhouse_gases.N2O.additional_information": {
+            "values": [
+                "Refer to Park et al. 2019."
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.greenhouse_gases.tropospheric_O3.provision": {
+            "values": [
+                "Y: Prescribed concentrations, distributions or time series data"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.greenhouse_gases.tropospheric_O3.additional_information": {
+            "values": [
+                "Refer to Park et al. 2019."
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.greenhouse_gases.stratospheric_O3.provision": {
+            "values": [
+                "Y: Prescribed concentrations, distributions or time series data"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.greenhouse_gases.stratospheric_O3.additional_information": {
+            "values": [
+                "Refer to Park et al. 2019."
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.greenhouse_gases.CFC.provision": {
+            "values": [
+                "Y: Prescribed concentrations, distributions or time series data"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.greenhouse_gases.CFC.equivalence_concentration": {
+            "values": [
+                "Option 2: CFC-12 is provided as actual concentrations and any other gases are provided as an equivalence concentration of CFC-11"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.greenhouse_gases.CFC.additional_information": {
+            "values": [
+                "Refer to Park et al. 2019."
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.SO4.provision": {
+            "values": [
+                "E: Concentrations calculated interactively driven by prescribed emissions or precursor emissions"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.SO4.additional_information": {
+            "values": [
+                "Refer to Park et al. 2019."
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.black_carbon.provision": {
+            "values": [
+                "E: Concentrations calculated interactively driven by prescribed emissions or precursor emissions"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.black_carbon.additional_information": {
+            "values": [
+                "Refer to Park et al. 2019."
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.organic_carbon.provision": {
+            "values": [
+                "E: Concentrations calculated interactively driven by prescribed emissions or precursor emissions"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.organic_carbon.additional_information": {
+            "values": [
+                "Refer to Park et al. 2019."
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.nitrate.provision": {
+            "values": [
+                "N/A: Not applicable - forcing agent is not included"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.cloud_albedo_effect.provision": {
+            "values": [
+                "M: Emissions and concentrations determined by the model state rather than externally prescribed"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.cloud_albedo_effect.aerosol_effect_on_ice_clouds": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.cloud_albedo_effect.additional_information": {
+            "values": [
+                "Refer to Park et al. 2019."
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.cloud_lifetime_effect.provision": {
+            "values": [
+                "M: Emissions and concentrations determined by the model state rather than externally prescribed"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.cloud_lifetime_effect.aerosol_effect_on_ice_clouds": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.cloud_lifetime_effect.RFaci_from_sulfate_only": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.cloud_lifetime_effect.additional_information": {
+            "values": [
+                "Refer to Park et al. 2019."
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.dust.provision": {
+            "values": [
+                "M: Emissions and concentrations determined by the model state rather than externally prescribed"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.dust.additional_information": {
+            "values": [
+                "Refer to Park et al. 2019."
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.tropospheric_volcanic.provision": {
+            "values": [
+                "N/A: Not applicable - forcing agent is not included"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.stratospheric_volcanic.provision": {
+            "values": [
+                "Y: Prescribed concentrations, distributions or time series data"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.sea_salt.provision": {
+            "values": [
+                "M: Emissions and concentrations determined by the model state rather than externally prescribed"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.aerosols.sea_salt.additional_information": {
+            "values": [
+                "Refer to Park et al. 2019."
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.other.land_use.provision": {
+            "values": [
+                "Y: Prescribed concentrations, distributions or time series data"
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.other.land_use.crop_change_only": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.other.land_use.additional_information": {
+            "values": [
+                "Refer to Park et al. 2019."
+            ]
+        }, 
+        "cmip6.toplevel.radiative_forcings.other.solar.provision": {
+            "values": [
+                "irradiance: Solar irradiance forcing"
+            ]
+        }
+    }
+}

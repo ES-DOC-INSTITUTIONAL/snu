@@ -1,0 +1,622 @@
+{
+    "mipEra": "cmip6", 
+    "institute": "snu", 
+    "seedingSource": "Spreadsheet", 
+    "sourceID": "sam0-unicon", 
+    "topic": "atmos", 
+    "content": {
+        "cmip6.atmos.key_properties.name": {
+            "values": [
+                "Seoul National University Atmosphere Model Version 0 with a Unified Convection Scheme (SAM0-UNICON)"
+            ]
+        }, 
+        "cmip6.atmos.key_properties.keywords": {
+            "values": [
+                "UNICON, PBL, Cloud Macrophysics, Cloud Microphysics, Radiation, Modal Aerosol Model, Aerosol Wet and Dry Deposition, Turbulent Mountain Stress, Dynamic Core"
+            ]
+        }, 
+        "cmip6.atmos.key_properties.overview": {
+            "values": [
+                "The Seoul National University Atmosphere Model version 0 with a Unified Convection Scheme (SAM0-UNICON) is based on the Community Atmosphere Model version 5 (CAM5), but replaces CAM5\u2019s shallow and deep convection schemes and revises CAM5\u2019s cloud macrophysics by diagnosing additional detrained cumulus fraction.\nUNICON is a process-based model of subgrid convective plumes and mesoscale organized flow that does not rely on any equilibrium assumptions, such as convective available potential energy (CAPE) closure used in CAM5\u2019s deep convection scheme or convective inhibition (CIN) closure used in CAM5\u2019s shallow convection scheme and simulates all dry\u2013moist, forced\u2013free, and shallow\u2013deep convection within a single framework in a seamless, consistent, and unified way (Park 2014a). UNICON successfully simulates various transitional phenomena associated with convection (e.g., the diurnal cycle of precipitation and the Madden\u2013Julian oscillation) without degrading the mean climate (Park 2014b). This improvement is mainly due to the explicit parameterization of complex interactions among convective updrafts, convective downdrafts, and mesoscale organized flow driven by subgrid cold pools, and associated simulation of convective plume memory across the time step, which cannot be simulated by CAM5\u2019s shallow and deep convection schemes (Park 2014a). The revised cloud macrophysics scheme diagnoses additional detrained cumulus that are not overlapped horizontally with cumulus and stratus clouds in each grid layer, by assuming a steady state balance between the detrainment rate of cumulus condensates and the dissipation rate of detrained condensates by entrainment mixing. The addition of detrained cumulus substantially improves the simulation of low-level clouds and the associated shortwave cloud radiative forcing, particularly in the subtropical trade cumulus regime (Park et al. 2017).\nRefer to Park et al. (2019)."
+            ]
+        }, 
+        "cmip6.atmos.key_properties.model_family": {
+            "values": [
+                "AGCM: Atmospheric General Circulation Model"
+            ]
+        }, 
+        "cmip6.atmos.key_properties.basic_approximations": {
+            "values": [
+                "Hydrostatic"
+            ]
+        }, 
+        "cmip6.atmos.key_properties.resolution.horizontal_resolution_name": {
+            "values": [
+                "F09"
+            ]
+        }, 
+        "cmip6.atmos.key_properties.resolution.canonical_horizontal_resolution": {
+            "values": [
+                "0.9 x 1.25 degrees lat-lon"
+            ]
+        }, 
+        "cmip6.atmos.key_properties.resolution.range_horizontal_resolution": {
+            "values": [
+                "Uniform in latitude, pole convergent toward poles"
+            ]
+        }, 
+        "cmip6.atmos.key_properties.resolution.number_of_vertical_levels": {
+            "values": [
+                30
+            ]
+        }, 
+        "cmip6.atmos.key_properties.resolution.high_top": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.atmos.key_properties.timestepping.timestep_dynamics": {
+            "values": [
+                225
+            ]
+        }, 
+        "cmip6.atmos.key_properties.timestepping.timestep_shortwave_radiative_transfer": {
+            "values": [
+                3600
+            ]
+        }, 
+        "cmip6.atmos.key_properties.timestepping.timestep_longwave_radiative_transfer": {
+            "values": [
+                3600
+            ]
+        }, 
+        "cmip6.atmos.key_properties.orography.type": {
+            "values": [
+                "fixed: present day"
+            ]
+        }, 
+        "cmip6.atmos.key_properties.orography.time-varying": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.atmos.key_properties.tuning_applied.description": {
+            "values": [
+                "Target metrics: global radiation balance at the top of the atmosphere, shortwave cloud radiative forcing, longwave cloud radiative forcing, sea surface temperature, sea-ice fraction, etc.\nRefer to Park et al. 2019."
+            ]
+        }, 
+        "cmip6.atmos.key_properties.tuning_applied.global_mean_metrics_used": {
+            "values": [
+                "Target metrics: global radiation balance at the top of the atmosphere, shortwave cloud radiative forcing, longwave cloud radiative forcing, aerosol optical depth, sea surface temperature, sea-ice fraction, etc.\nRefer to Park et al. 2019."
+            ]
+        }, 
+        "cmip6.atmos.key_properties.tuning_applied.regional_metrics_used": {
+            "values": [
+                "Precipitation rate at the surface, surface wind stress, near surface air temperature, etc.\nRefer to Park et al. 2019."
+            ]
+        }, 
+        "cmip6.atmos.grid.name": {
+            "values": [
+                "F09"
+            ]
+        }, 
+        "cmip6.atmos.grid.overview": {
+            "values": [
+                "A Cartesian grid with uniform longitude and latitude (same as CESM1.2)."
+            ]
+        }, 
+        "cmip6.atmos.grid.discretisation.horizontal.scheme_type": {
+            "values": [
+                "fixed grid"
+            ]
+        }, 
+        "cmip6.atmos.grid.discretisation.horizontal.scheme_method": {
+            "values": [
+                "finite volumes"
+            ]
+        }, 
+        "cmip6.atmos.grid.discretisation.horizontal.scheme_order": {
+            "values": [
+                "third"
+            ]
+        }, 
+        "cmip6.atmos.grid.discretisation.horizontal.horizontal_pole": {
+            "values": [
+                "filter"
+            ]
+        }, 
+        "cmip6.atmos.grid.discretisation.horizontal.grid_type": {
+            "values": [
+                "Latitude-Longitude"
+            ]
+        }, 
+        "cmip6.atmos.dynamical_core.name": {
+            "values": [
+                "Finite Volume (FV)"
+            ]
+        }, 
+        "cmip6.atmos.dynamical_core.overview": {
+            "values": [
+                "Same as CESM1.2."
+            ]
+        }, 
+        "cmip6.atmos.dynamical_core.timestepping_type": {
+            "values": [
+                "multi-step"
+            ]
+        }, 
+        "cmip6.atmos.dynamical_core.prognostic_variables": {
+            "values": [
+                "surface pressure", 
+                "wind components", 
+                "potential temperature", 
+                "water vapour", 
+                "water liquid", 
+                "water ice", 
+                "Other: sub-grid cold-pool and associated meso-scale perturbations of temperature, moisture, and horizontal wind", 
+                "Other: tracers"
+            ]
+        }, 
+        "cmip6.atmos.dynamical_core.top_boundary.top_boundary_condition": {
+            "values": [
+                "sponge layer"
+            ]
+        }, 
+        "cmip6.atmos.dynamical_core.top_boundary.top_heat": {
+            "values": [
+                "Same as CESM1.2."
+            ]
+        }, 
+        "cmip6.atmos.dynamical_core.top_boundary.top_wind": {
+            "values": [
+                "Same as CESM1.2."
+            ]
+        }, 
+        "cmip6.atmos.dynamical_core.lateral_boundary.condition": {
+            "values": [
+                "Other: No regional model"
+            ]
+        }, 
+        "cmip6.atmos.dynamical_core.diffusion_horizontal.scheme_name": {
+            "values": [
+                "None"
+            ]
+        }, 
+        "cmip6.atmos.dynamical_core.advection.tracers.scheme_name": {
+            "values": [
+                "Other: finite volume (same as CESM1.2)"
+            ]
+        }, 
+        "cmip6.atmos.dynamical_core.advection.tracers.scheme_characteristics": {
+            "values": [
+                "finite volume"
+            ]
+        }, 
+        "cmip6.atmos.dynamical_core.advection.tracers.conserved_quantities": {
+            "values": [
+                "Other: same as CESM1.2"
+            ]
+        }, 
+        "cmip6.atmos.dynamical_core.advection.tracers.conservation_method": {
+            "values": [
+                "Other: same as CESM1.2"
+            ]
+        }, 
+        "cmip6.atmos.dynamical_core.advection.momentum.scheme_name": {
+            "values": [
+                "Other: finite volume (same as CESM1.2)"
+            ]
+        }, 
+        "cmip6.atmos.dynamical_core.advection.momentum.scheme_characteristics": {
+            "values": [
+                "staggered grid"
+            ]
+        }, 
+        "cmip6.atmos.dynamical_core.advection.momentum.scheme_staggering_type": {
+            "values": [
+                "Arakawa C-grid"
+            ]
+        }, 
+        "cmip6.atmos.dynamical_core.advection.momentum.conserved_quantities": {
+            "values": [
+                "Horizontal momentum", 
+                "Mass"
+            ]
+        }, 
+        "cmip6.atmos.radiation.name": {
+            "values": [
+                "Rapid Radiation Transfer Model for GCMs (RRTMG)"
+            ]
+        }, 
+        "cmip6.atmos.radiation.overview": {
+            "values": [
+                "Same as CESM1.2."
+            ]
+        }, 
+        "cmip6.atmos.radiation.aerosols": {
+            "values": [
+                "sulphate", 
+                "sea salt", 
+                "dust", 
+                "organic", 
+                "BC: black carbon / soot", 
+                "SOA: secondary organic aerosols", 
+                "POM: particulate organic matter", 
+                "Other: same as CESM1.2"
+            ]
+        }, 
+        "cmip6.atmos.radiation.shortwave_radiation.name": {
+            "values": [
+                "RRTMG-SW"
+            ]
+        }, 
+        "cmip6.atmos.radiation.shortwave_radiation.spectral_integration": {
+            "values": [
+                "correlated-k"
+            ]
+        }, 
+        "cmip6.atmos.radiation.shortwave_radiation.transport_calculation": {
+            "values": [
+                "two-stream"
+            ]
+        }, 
+        "cmip6.atmos.radiation.shortwave_radiation.spectral_intervals": {
+            "values": [
+                14
+            ]
+        }, 
+        "cmip6.atmos.radiation.shortwave_radiation.general_interactions": {
+            "values": [
+                "emission/absorption,", 
+                "scattering"
+            ]
+        }, 
+        "cmip6.atmos.radiation.shortwave_GHG.greenhouse_gas_complexity": {
+            "values": [
+                "Other: same as CESM1.2 (H2O, O3, CO2, O2, CH4, N2)"
+            ]
+        }, 
+        "cmip6.atmos.radiation.shortwave_GHG.ODS": {
+            "values": [
+                "Other: same as CESM1.2"
+            ]
+        }, 
+        "cmip6.atmos.radiation.shortwave_GHG.other_flourinated_gases": {
+            "values": [
+                "Other: same as CESM1.2"
+            ]
+        }, 
+        "cmip6.atmos.radiation.shortwave_cloud_ice.physical_representation": {
+            "values": [
+                "effective crystal radius"
+            ]
+        }, 
+        "cmip6.atmos.radiation.shortwave_cloud_ice.optical_methods": {
+            "values": [
+                "Other: same as CESM1.2"
+            ]
+        }, 
+        "cmip6.atmos.radiation.shortwave_cloud_liquid.physical_representation": {
+            "values": [
+                "effective cloud droplet radii"
+            ]
+        }, 
+        "cmip6.atmos.radiation.shortwave_cloud_liquid.optical_methods": {
+            "values": [
+                "Other: same as CESM1.2"
+            ]
+        }, 
+        "cmip6.atmos.radiation.shortwave_cloud_inhomogeneity.cloud_inhomogeneity": {
+            "values": [
+                "Other: same as CESM1.2"
+            ]
+        }, 
+        "cmip6.atmos.radiation.shortwave_aerosols.physical_representation": {
+            "values": [
+                "Other: same as CESM1.2"
+            ]
+        }, 
+        "cmip6.atmos.radiation.shortwave_aerosols.optical_methods": {
+            "values": [
+                "Other: same as CESM1.2"
+            ]
+        }, 
+        "cmip6.atmos.radiation.longwave_radiation.name": {
+            "values": [
+                "RRTMG-LW"
+            ]
+        }, 
+        "cmip6.atmos.radiation.longwave_radiation.spectral_integration": {
+            "values": [
+                "correlated-k"
+            ]
+        }, 
+        "cmip6.atmos.radiation.longwave_radiation.transport_calculation": {
+            "values": [
+                "Other: same as CESM1.2"
+            ]
+        }, 
+        "cmip6.atmos.radiation.longwave_radiation.spectral_intervals": {
+            "values": [
+                16
+            ]
+        }, 
+        "cmip6.atmos.radiation.longwave_radiation.general_interactions": {
+            "values": [
+                "Other: same as CESM1.2"
+            ]
+        }, 
+        "cmip6.atmos.radiation.longwave_GHG.greenhouse_gas_complexity": {
+            "values": [
+                "CO2: Carbon Dioxide", 
+                "N2O: Nitrous Oxide", 
+                "CH4: Methane", 
+                "O3", 
+                "H2O", 
+                "CFC-11 eq: Summarize the effect of non CO2, CH4, N2O and CFC-12 gases with an equivalence concentration of CFC-11", 
+                "CFC-12 eq: Summarize the radiative effect of the Ozone Depleating Substances, ODSs, with a CFC-12 equivalence concentration", 
+                "Other: same as CESM1.2"
+            ]
+        }, 
+        "cmip6.atmos.radiation.longwave_GHG.ODS": {
+            "values": [
+                "CFC-11: CFC", 
+                "CFC-12: CFC", 
+                "Other: same as CESM1.2"
+            ]
+        }, 
+        "cmip6.atmos.radiation.longwave_GHG.other_flourinated_gases": {
+            "values": [
+                "Other: same as CESM1.2"
+            ]
+        }, 
+        "cmip6.atmos.radiation.longwave_cloud_ice.physical_reprenstation": {
+            "values": [
+                "effective crystal radius"
+            ]
+        }, 
+        "cmip6.atmos.radiation.longwave_cloud_ice.optical_methods": {
+            "values": [
+                "Other: same as CESM1.2"
+            ]
+        }, 
+        "cmip6.atmos.radiation.longwave_cloud_liquid.physical_representation": {
+            "values": [
+                "effective cloud droplet radii"
+            ]
+        }, 
+        "cmip6.atmos.radiation.longwave_cloud_liquid.optical_methods": {
+            "values": [
+                "Other: same as CESM1.2"
+            ]
+        }, 
+        "cmip6.atmos.radiation.longwave_cloud_inhomogeneity.cloud_inhomogeneity": {
+            "values": [
+                "Other: same as CESM1.2"
+            ]
+        }, 
+        "cmip6.atmos.radiation.longwave_aerosols.physical_representation": {
+            "values": [
+                "Other: same as CESM1.2"
+            ]
+        }, 
+        "cmip6.atmos.turbulence_convection.name": {
+            "values": [
+                "UW-PBL / UNICON"
+            ]
+        }, 
+        "cmip6.atmos.turbulence_convection.overview": {
+            "values": [
+                "UNICON is a process-based model of subgrid convective plumes and mesoscale organized flow that does not rely on any equilibrium assumptions, such as convective available potential energy (CAPE) closure used in CAM5\u2019s deep convection scheme or convective inhibition (CIN) closure used in CAM5\u2019s shallow convection scheme and simulates all dry\u2013moist, forced\u2013free, and shallow\u2013deep convection within a single framework in a seamless, consistent, and unified way (Park 2014a). UNICON successfully simulates various transitional phenomena associated with convection (e.g., the diurnal cycle of precipitation and the Madden\u2013Julian oscillation) without degrading the mean climate (Park 2014b). This improvement is mainly due to the explicit parameterization of complex interactions among convective updrafts, convective downdrafts, and mesoscale organized flow driven by subgrid cold pools, and associated simulation of convective plume memory across the time step, which cannot be simulated by CAM5\u2019s shallow and deep convection schemes (Park 2014a). The revised cloud macrophysics scheme diagnoses additional detrained cumulus that are not overlapped horizontally with cumulus and stratus clouds in each grid layer, by assuming a steady state balance between the detrainment rate of cumulus condensates and the dissipation rate of detrained condensates by entrainment mixing. The addition of detrained cumulus substantially improves the simulation of low-level clouds and the associated shortwave cloud radiative forcing, particularly in the subtropical trade cumulus regime (Park et al. 2017).\nRefer to Park et al. (2019).\n\nPBL scheme is the University of Washington Moist PBL Scheme (Bretherton and Park 2009, Park and Bretherton 2009) (same as CESM1.2)."
+            ]
+        }, 
+        "cmip6.atmos.turbulence_convection.boundary_layer_turbulence.scheme_name": {
+            "values": [
+                "Other: UW-PBL"
+            ]
+        }, 
+        "cmip6.atmos.turbulence_convection.boundary_layer_turbulence.scheme_type": {
+            "values": [
+                "TKE diagnostic"
+            ]
+        }, 
+        "cmip6.atmos.turbulence_convection.boundary_layer_turbulence.closure_order": {
+            "values": [
+                2
+            ]
+        }, 
+        "cmip6.atmos.turbulence_convection.boundary_layer_turbulence.counter_gradient": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.atmos.turbulence_convection.deep_convection.scheme_name": {
+            "values": [
+                "UNICON"
+            ]
+        }, 
+        "cmip6.atmos.turbulence_convection.deep_convection.scheme_type": {
+            "values": [
+                "mass-flux"
+            ]
+        }, 
+        "cmip6.atmos.turbulence_convection.deep_convection.scheme_method": {
+            "values": [
+                "Other: precess-based scheme without CIN/CAPE closures"
+            ]
+        }, 
+        "cmip6.atmos.turbulence_convection.deep_convection.processes": {
+            "values": [
+                "convective momentum transport", 
+                "entrainment", 
+                "detrainment", 
+                "penetrative convection", 
+                "updrafts", 
+                "downdrafts", 
+                "radiative effect of anvils", 
+                "re-evaporation of convective precipitation", 
+                "Other: sub-grid cold-pool and meso-scale convective organized flow"
+            ]
+        }, 
+        "cmip6.atmos.turbulence_convection.deep_convection.microphysics": {
+            "values": [
+                "single moment"
+            ]
+        }, 
+        "cmip6.atmos.turbulence_convection.shallow_convection.scheme_name": {
+            "values": [
+                "UNICON"
+            ]
+        }, 
+        "cmip6.atmos.turbulence_convection.shallow_convection.scheme_type": {
+            "values": [
+                "mass-flux"
+            ]
+        }, 
+        "cmip6.atmos.turbulence_convection.shallow_convection.scheme_method": {
+            "values": [
+                "same as deep (unified)"
+            ]
+        }, 
+        "cmip6.atmos.turbulence_convection.shallow_convection.processes": {
+            "values": [
+                "convective momentum transport", 
+                "entrainment", 
+                "detrainment", 
+                "penetrative convection", 
+                "re-evaporation of convective precipitation", 
+                "Other: convective downdrafts"
+            ]
+        }, 
+        "cmip6.atmos.microphysics_precipitation.name": {
+            "values": [
+                "Same as CESM1.2."
+            ]
+        }, 
+        "cmip6.atmos.microphysics_precipitation.overview": {
+            "values": [
+                "Same as CESM1.2."
+            ]
+        }, 
+        "cmip6.atmos.microphysics_precipitation.large_scale_precipitation.scheme_name": {
+            "values": [
+                "Morrison and Gettelman Microphysics scheme (MG microphysics)"
+            ]
+        }, 
+        "cmip6.atmos.microphysics_precipitation.large_scale_precipitation.hydrometeors": {
+            "values": [
+                "Other: rain and snow (same as CESM1.2)"
+            ]
+        }, 
+        "cmip6.atmos.microphysics_precipitation.large_scale_cloud_microphysics.scheme_name": {
+            "values": [
+                "Morrison and Gettelman Microphysics scheme (MG microphysics)"
+            ]
+        }, 
+        "cmip6.atmos.cloud_scheme.name": {
+            "values": [
+                "Park's scheme"
+            ]
+        }, 
+        "cmip6.atmos.cloud_scheme.overview": {
+            "values": [
+                "PDF-based stratus cloud fraction, prognostic liquid condensation scheme based on a saturation equilibrium constraint, and detrained cumulus fraction.\nRefer to Park et al. (2017)."
+            ]
+        }, 
+        "cmip6.atmos.cloud_scheme.scheme_type": {
+            "values": [
+                "prognostic", 
+                "diagnostic"
+            ]
+        }, 
+        "cmip6.atmos.cloud_scheme.uses_separate_treatment": {
+            "values": [
+                "Cumulus fraction, stratus fraction, detrained cumulus fraction"
+            ]
+        }, 
+        "cmip6.atmos.cloud_scheme.processes": {
+            "values": [
+                "entrainment", 
+                "detrainment", 
+                "bulk cloud"
+            ]
+        }, 
+        "cmip6.atmos.cloud_scheme.prognostic_variables": {
+            "values": [
+                "liquid", 
+                "ice", 
+                "cloud droplet number concentration: To document the use of two-moment cloud microphysics schemes", 
+                "ice crystal number concentration: To document the use of two-moment cloud microphysics schemes"
+            ]
+        }, 
+        "cmip6.atmos.cloud_scheme.atmos_coupling": {
+            "values": [
+                "atmosphere_radiation", 
+                "atmosphere_microphysics_precipitation", 
+                "atmosphere_turbulence_convection", 
+                "atmosphere_observation_simulation"
+            ]
+        }, 
+        "cmip6.atmos.cloud_scheme.optical_cloud_properties.cloud_overlap_method": {
+            "values": [
+                "maximum-random: combination of maximum and random overlap between clouds"
+            ]
+        }, 
+        "cmip6.atmos.cloud_scheme.optical_cloud_properties.cloud_inhomogeneity": {
+            "values": [
+                "None"
+            ]
+        }, 
+        "cmip6.atmos.cloud_scheme.sub_grid_scale_water_distribution.type": {
+            "values": [
+                "diagnostic"
+            ]
+        }, 
+        "cmip6.atmos.cloud_scheme.sub_grid_scale_water_distribution.function_name": {
+            "values": [
+                "gamma distribution"
+            ]
+        }, 
+        "cmip6.atmos.cloud_scheme.sub_grid_scale_water_distribution.function_order": {
+            "values": [
+                1
+            ]
+        }, 
+        "cmip6.atmos.cloud_scheme.sub_grid_scale_water_distribution.convection_coupling": {
+            "values": [
+                "coupled with deep", 
+                "coupled with shallow"
+            ]
+        }, 
+        "cmip6.atmos.cloud_scheme.sub_grid_scale_ice_distribution.type": {
+            "values": [
+                "diagnostic"
+            ]
+        }, 
+        "cmip6.atmos.cloud_scheme.sub_grid_scale_ice_distribution.function_name": {
+            "values": [
+                "gamma distribution"
+            ]
+        }, 
+        "cmip6.atmos.cloud_scheme.sub_grid_scale_ice_distribution.function_order": {
+            "values": [
+                0
+            ]
+        }, 
+        "cmip6.atmos.observation_simulation.overview": {
+            "values": [
+                "Same as CESM1.2."
+            ]
+        }, 
+        "cmip6.atmos.gravity_waves.overview": {
+            "values": [
+                "Same as CESM1.2."
+            ]
+        }, 
+        "cmip6.atmos.natural_forcing.overview": {
+            "values": [
+                "Refer to Park et al. (2019)."
+            ]
+        }
+    }
+}

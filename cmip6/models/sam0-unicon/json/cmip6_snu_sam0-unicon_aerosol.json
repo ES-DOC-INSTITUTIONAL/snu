@@ -1,0 +1,330 @@
+{
+    "mipEra": "cmip6", 
+    "institute": "snu", 
+    "seedingSource": "Spreadsheet", 
+    "sourceID": "sam0-unicon", 
+    "topic": "aerosol", 
+    "content": {
+        "cmip6.aerosol.key_properties.name": {
+            "values": [
+                "3-mode version of Modal Aerosol Model (MAM-3)"
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.keywords": {
+            "values": [
+                "3-mode aerosols, sulfate, black carbon, primary organic carbon, dust, sea salt"
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.overview": {
+            "values": [
+                "MAM-3 has 3 modes of aerosols (Aitken, accumulation and coarse modes). Within a single mode, the mass mixing ratios of internally-mixed sulfate, ammonium, secondary organic aerosol (SOA), primary organic matter (POM) aged from the primary carbon mode, black carbon (BC) aged from the primary carbon mode, sea salt, and the number mixing ratio of accumulation mode particles are predicted. \n\nIn CMIP6 experiments, we used the identical aerosol model (MAM-3) in CAM5 and CESM1.2.\nHence, all contents are based on MAM-3 documents, \nespecially aerosol section in [Description of the NCAR Community Atmosphere Model (CAM 5.0)].\nThis dodument is available at [http://www.cesm.ucar.edu/models/cesm1.0/cam/docs/description/cam5_desc.pdf]."
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.scheme_scope": {
+            "values": [
+                "whole atmosphere"
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.basic_approximations": {
+            "values": [
+                "Same as CESM1.2."
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.prognostic_variables_form": {
+            "values": [
+                "3D mass/volume ratio for aerosols", 
+                "3D number concentration for aerosols"
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.number_of_tracers": {
+            "values": [
+                15
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.software_properties.code_version": {
+            "values": [
+                "MAM-3"
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.software_properties.code_languages": {
+            "values": [
+                "Fortran"
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.timestep_framework.method": {
+            "values": [
+                "Specific timestepping (operator splitting)"
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.timestep_framework.split_operator_advection_timestep": {
+            "values": [
+                450
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.timestep_framework.split_operator_physical_timestep": {
+            "values": [
+                1800
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.timestep_framework.integrated_timestep": {
+            "values": [
+                1800
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.timestep_framework.integrated_scheme_type": {
+            "values": [
+                "Other: same as CESM1.2"
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.meteorological_forcings.variables_3D": {
+            "values": [
+                "U, V, W, T, Q, P, cloud, convective mass flux, PBL turbulence"
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.meteorological_forcings.variables_2D": {
+            "values": [
+                "Same as CESM1.2."
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.meteorological_forcings.frequency": {
+            "values": [
+                1800
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.resolution.name": {
+            "values": [
+                "Same as MAM-3 in CAM5, CESM1.2"
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.resolution.canonical_horizontal_resolution": {
+            "values": [
+                "Same as MAM-3 in CAM5, CESM1.2"
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.resolution.number_of_horizontal_gridpoints": {
+            "values": [
+                "Same as MAM-3 in CAM5, CESM1.2"
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.resolution.number_of_vertical_levels": {
+            "values": [
+                30
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.resolution.is_adaptive_grid": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.tuning_applied.description": {
+            "values": [
+                "Same as MAM-3 in CAM5, CESM1.2"
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.tuning_applied.global_mean_metrics_used": {
+            "values": [
+                "Aerosol optical depth (same as MAM-3 in CAM5, CESM1.2)"
+            ]
+        }, 
+        "cmip6.aerosol.key_properties.tuning_applied.regional_metrics_used": {
+            "values": [
+                "Same as MAM-3 in CAM5, CESM1.2"
+            ]
+        }, 
+        "cmip6.aerosol.grid.name": {
+            "values": [
+                "F09"
+            ]
+        }, 
+        "cmip6.aerosol.grid.overview": {
+            "values": [
+                "Same as MAM-3 in CAM5, CESM1.2"
+            ]
+        }, 
+        "cmip6.aerosol.grid.matches_atmosphere_grid": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.aerosol.grid.resolution.name": {
+            "values": [
+                "F09"
+            ]
+        }, 
+        "cmip6.aerosol.grid.resolution.canonical_horizontal_resolution": {
+            "values": [
+                "1 degrees"
+            ]
+        }, 
+        "cmip6.aerosol.grid.resolution.number_of_horizontal_gridpoints": {
+            "values": [
+                55296
+            ]
+        }, 
+        "cmip6.aerosol.grid.resolution.number_of_vertical_levels": {
+            "values": [
+                30
+            ]
+        }, 
+        "cmip6.aerosol.transport.name": {
+            "values": [
+                "Aerosol is transported by advection scheme in Atmospheric model."
+            ]
+        }, 
+        "cmip6.aerosol.transport.overview": {
+            "values": [
+                "Aerosol is transported by advection shceme in Atmosphere model which uses a finite volume dynamic core."
+            ]
+        }, 
+        "cmip6.aerosol.transport.mass_conservation_scheme": {
+            "values": [
+                "Other: same as CESM1.2"
+            ]
+        }, 
+        "cmip6.aerosol.emissions.name": {
+            "values": [
+                "CMIP6"
+            ]
+        }, 
+        "cmip6.aerosol.emissions.overview": {
+            "values": [
+                "Same as MAM-3 in CAM5, CESM1.2"
+            ]
+        }, 
+        "cmip6.aerosol.emissions.method": {
+            "values": [
+                "Interactive"
+            ]
+        }, 
+        "cmip6.aerosol.emissions.sources": {
+            "values": [
+                "Sea surface", 
+                "Volcanos", 
+                "Bare ground", 
+                "Fires", 
+                "Aircraft", 
+                "Anthropogenic"
+            ]
+        }, 
+        "cmip6.aerosol.emissions.prescribed_climatology": {
+            "values": [
+                "Same as MAM-3 in CAM5, CESM1.2"
+            ]
+        }, 
+        "cmip6.aerosol.emissions.prescribed_climatology_emitted_species": {
+            "values": [
+                "Same as MAM-3 in CAM5, CESM1.2"
+            ]
+        }, 
+        "cmip6.aerosol.emissions.prescribed_spatially_uniform_emitted_species": {
+            "values": [
+                "Same as MAM-3 in CAM5, CESM1.2"
+            ]
+        }, 
+        "cmip6.aerosol.emissions.interactive_emitted_species": {
+            "values": [
+                "Same as MAM-3 in CAM5, CESM1.2"
+            ]
+        }, 
+        "cmip6.aerosol.emissions.other_emitted_species": {
+            "values": [
+                "Same as MAM-3 in CAM5, CESM1.2"
+            ]
+        }, 
+        "cmip6.aerosol.concentrations.name": {
+            "values": [
+                "Mass and volume mixing ratio, number concentration"
+            ]
+        }, 
+        "cmip6.aerosol.concentrations.overview": {
+            "values": [
+                "Same as MAM-3 in CAM5, CESM1.2"
+            ]
+        }, 
+        "cmip6.aerosol.concentrations.prescribed_lower_boundary": {
+            "values": [
+                "Same as MAM-3 in CAM5, CESM1.2"
+            ]
+        }, 
+        "cmip6.aerosol.concentrations.prescribed_upper_boundary": {
+            "values": [
+                "Same as MAM-3 in CAM5, CESM1.2"
+            ]
+        }, 
+        "cmip6.aerosol.concentrations.prescribed_fields_mmr": {
+            "values": [
+                "Same as MAM-3 in CAM5, CESM1.2"
+            ]
+        }, 
+        "cmip6.aerosol.optical_radiative_properties.name": {
+            "values": [
+                "extinction coefficient, single scattering albedo, asymmetric parameter, refractive index"
+            ]
+        }, 
+        "cmip6.aerosol.optical_radiative_properties.overview": {
+            "values": [
+                "Same as MAM-3 in CAM5, CESM1.2"
+            ]
+        }, 
+        "cmip6.aerosol.optical_radiative_properties.absorption.black_carbon": {
+            "values": [
+                "Same as MAM-3 in CAM5, CESM1.2"
+            ]
+        }, 
+        "cmip6.aerosol.optical_radiative_properties.absorption.dust": {
+            "values": [
+                "Same as MAM-3 in CAM5, CESM1.2"
+            ]
+        }, 
+        "cmip6.aerosol.optical_radiative_properties.absorption.organics": {
+            "values": [
+                "Same as MAM-3 in CAM5, CESM1.2"
+            ]
+        }, 
+        "cmip6.aerosol.optical_radiative_properties.radiative_scheme.overview": {
+            "values": [
+                "Same as CESM1.2."
+            ]
+        }, 
+        "cmip6.aerosol.optical_radiative_properties.radiative_scheme.shortwave_bands": {
+            "values": [
+                14
+            ]
+        }, 
+        "cmip6.aerosol.optical_radiative_properties.radiative_scheme.longwave_bands": {
+            "values": [
+                16
+            ]
+        }, 
+        "cmip6.aerosol.optical_radiative_properties.cloud_interactions.overview": {
+            "values": [
+                "Same as CESM1.2."
+            ]
+        }, 
+        "cmip6.aerosol.model.name": {
+            "values": [
+                "MAM3"
+            ]
+        }, 
+        "cmip6.aerosol.model.overview": {
+            "values": [
+                "Same as CESM1.2."
+            ]
+        }, 
+        "cmip6.aerosol.model.coupling": {
+            "values": [
+                "Other: same as CESM1.2."
+            ]
+        }, 
+        "cmip6.aerosol.model.gas_phase_precursors": {
+            "values": [
+                "Other: same as CESM1.2"
+            ]
+        }, 
+        "cmip6.aerosol.model.scheme_type": {
+            "values": [
+                "Other: same as CESM1.2"
+            ]
+        }
+    }
+}

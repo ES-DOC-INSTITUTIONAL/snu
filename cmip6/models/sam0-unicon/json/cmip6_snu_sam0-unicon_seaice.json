@@ -1,0 +1,405 @@
+{
+    "mipEra": "cmip6", 
+    "institute": "snu", 
+    "seedingSource": "Spreadsheet", 
+    "sourceID": "sam0-unicon", 
+    "topic": "seaice", 
+    "content": {
+        "cmip6.seaice.key_properties.name": {
+            "values": [
+                "CICE 4.0"
+            ]
+        }, 
+        "cmip6.seaice.key_properties.keywords": {
+            "values": [
+                "sea ice, Los Alamos Sea Ice Model"
+            ]
+        }, 
+        "cmip6.seaice.key_properties.overview": {
+            "values": [
+                "CICE has several interacting components: a thermodynamic model that computes local growth rates of snow and ice due to vertical conductive, radiative and turbulent fluxes, along with snowfall; a model of ice dynamics, which predicts the velocity field of the ice pack based on a model of the material strength of the ice; a transport model that describes advection of the areal concentration, ice volumes and other state variables; and a ridging parameterization that transfers ice among thickness categories based on energetic balances and rates of strain. Additional routines prepare and execute data exchanges with an external \u201cflux coupler,\u201d which then passes the data to other climate model components such as POP.\n\nIn CMIP6 experiments, we used the identical ocean model (CICE4) in CESM1.2.\nHence, all contents are based on CICE documents, \nespecially [CICE: the Los Alamos Sea Ice Model Documentation and Software User's Manual Version 4.1 (2010)]\nThis dodument is available at [https://csdms.colorado.edu/w/images/CICE_documentation_and_software_user's_manual.pdf]. "
+            ]
+        }, 
+        "cmip6.seaice.key_properties.variables.prognostic": {
+            "values": [
+                "Sea ice concentration", 
+                "Sea ice volume per grid cell area", 
+                "Other: Snow volume per grid cell area", 
+                "Sea ice enthalpy", 
+                "Sea ice u-velocity", 
+                "Sea ice v-velocity", 
+                "Internal ice stress", 
+                "Salinity", 
+                "Other: Snow enthalpy", 
+                "Other: Surface temperature", 
+                "Other: Melt pond fraction", 
+                "Other: Black carbon concentration", 
+                "Other: Dust concentration"
+            ]
+        }, 
+        "cmip6.seaice.key_properties.seawater_properties.ocean_freezing_point": {
+            "values": [
+                "Other: Assur_1958"
+            ]
+        }, 
+        "cmip6.seaice.key_properties.resolution.name": {
+            "values": [
+                "gx1v6"
+            ]
+        }, 
+        "cmip6.seaice.key_properties.resolution.canonical_horizontal_resolution": {
+            "values": [
+                "one degree"
+            ]
+        }, 
+        "cmip6.seaice.key_properties.resolution.number_of_horizontal_gridpoints": {
+            "values": [
+                122880
+            ]
+        }, 
+        "cmip6.seaice.key_properties.tuning_applied.description": {
+            "values": [
+                "Same as CICE4 in CESM1.2"
+            ]
+        }, 
+        "cmip6.seaice.key_properties.tuning_applied.target": {
+            "values": [
+                "Same as CICE4 in CESM1.2"
+            ]
+        }, 
+        "cmip6.seaice.key_properties.tuning_applied.simulations": {
+            "values": [
+                "Same as CICE4 in CESM1.2"
+            ]
+        }, 
+        "cmip6.seaice.key_properties.tuning_applied.metrics_used": {
+            "values": [
+                "Same as CICE4 in CESM1.2"
+            ]
+        }, 
+        "cmip6.seaice.key_properties.tuning_applied.variables": {
+            "values": [
+                "Same as CICE4 in CESM1.2"
+            ]
+        }, 
+        "cmip6.seaice.key_properties.key_parameter_values.ice_strength": {
+            "values": [
+                27500
+            ]
+        }, 
+        "cmip6.seaice.key_properties.key_parameter_values.snow_conductivity": {
+            "values": [
+                0.3
+            ]
+        }, 
+        "cmip6.seaice.key_properties.key_parameter_values.ice_thickness_in_leads": {
+            "values": [
+                0.01
+            ]
+        }, 
+        "cmip6.seaice.key_properties.key_parameter_values.additional_parameters": {
+            "values": [
+                "Same as CICE4 in CESM1.2\n(See Index of primary variables and parameters in cited CICE4 document)"
+            ]
+        }, 
+        "cmip6.seaice.key_properties.assumptions.description": {
+            "values": [
+                "Same as CICE4 in CESM1.2"
+            ]
+        }, 
+        "cmip6.seaice.key_properties.assumptions.on_diagnostic_variables": {
+            "values": [
+                "Same as CICE4 in CESM1.2"
+            ]
+        }, 
+        "cmip6.seaice.key_properties.assumptions.missing_processes": {
+            "values": [
+                "Same as CICE4 in CESM1.2"
+            ]
+        }, 
+        "cmip6.seaice.key_properties.conservation.description": {
+            "values": [
+                "CICE4 conserves momentum, heat, and fresh water."
+            ]
+        }, 
+        "cmip6.seaice.key_properties.conservation.properties": {
+            "values": [
+                "Energy", 
+                "Mass", 
+                "Salt", 
+                "Other: fresh water"
+            ]
+        }, 
+        "cmip6.seaice.key_properties.conservation.budget": {
+            "values": [
+                "Same as CICE4 in CESM1.2"
+            ]
+        }, 
+        "cmip6.seaice.grid.name": {
+            "values": [
+                "gx1v6"
+            ]
+        }, 
+        "cmip6.seaice.grid.overview": {
+            "values": [
+                "Greenland pole (displaced pole) grid with approximately 1-degree horizontal resolution (same as CESM1.2)."
+            ]
+        }, 
+        "cmip6.seaice.grid.discretisation.horizontal.grid": {
+            "values": [
+                "Ocean grid: Sea ice is horizontally discretised on the ocean grid."
+            ]
+        }, 
+        "cmip6.seaice.grid.discretisation.horizontal.grid_type": {
+            "values": [
+                "Structured grid"
+            ]
+        }, 
+        "cmip6.seaice.grid.discretisation.horizontal.scheme": {
+            "values": [
+                "Other: same as CESM1.2"
+            ]
+        }, 
+        "cmip6.seaice.grid.discretisation.horizontal.additional_details": {
+            "values": [
+                "Same as CESM1.2."
+            ]
+        }, 
+        "cmip6.seaice.grid.discretisation.vertical.layering": {
+            "values": [
+                "Other: same as CESM1.2"
+            ]
+        }, 
+        "cmip6.seaice.grid.discretisation.vertical.additional_details": {
+            "values": [
+                "Same as CESM1.2."
+            ]
+        }, 
+        "cmip6.seaice.grid.seaice_categories.category_limits": {
+            "values": [
+                "Same as CESM1.2"
+            ]
+        }, 
+        "cmip6.seaice.grid.seaice_categories.ice_thickness_distribution": {
+            "values": [
+                "Same as CESM1.2."
+            ]
+        }, 
+        "cmip6.seaice.grid.seaice_categories.other": {
+            "values": [
+                "Same as CESM1.2."
+            ]
+        }, 
+        "cmip6.seaice.grid.snow_on_seaice.has_snow_on_ice": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.seaice.grid.snow_on_seaice.number_of_snow_levels": {
+            "values": [
+                5
+            ]
+        }, 
+        "cmip6.seaice.grid.snow_on_seaice.snow_fraction": {
+            "values": [
+                "Same as CESM1.2."
+            ]
+        }, 
+        "cmip6.seaice.dynamics.name": {
+            "values": [
+                "EVP (Elastic-Viscous-Plastic model)"
+            ]
+        }, 
+        "cmip6.seaice.dynamics.overview": {
+            "values": [
+                "The elastic-viscous-plastic (EVP) model represents a modification of the standard viscous-plastic (VP) model for sea ice dynamics [13]. It reduces to the VP model at time scales associated with the wind forcing, while at shorter time scales the adjustment process is treated by a numerically more efficient elastic wave mechanism. Retaining the essential physics, this elastic wave modification leads to a fully explicit\nnumerical scheme which greatly improves the model\u2019s computational efficiency (same as CESM1.2)."
+            ]
+        }, 
+        "cmip6.seaice.dynamics.horizontal_transport": {
+            "values": [
+                "Incremental Re-mapping: (including Semi-Lagrangian)"
+            ]
+        }, 
+        "cmip6.seaice.dynamics.transport_in_thickness_space": {
+            "values": [
+                "Incremental Re-mapping: (including Semi-Lagrangian)"
+            ]
+        }, 
+        "cmip6.seaice.dynamics.ice_strength_formulation": {
+            "values": [
+                "Rothrock 1975"
+            ]
+        }, 
+        "cmip6.seaice.dynamics.redistribution": {
+            "values": [
+                "Rafting", 
+                "Ridging"
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.name": {
+            "values": [
+                "Bitz and Lipscomb_1999"
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.overview": {
+            "values": [
+                "Salinity-dependent thermodynaic model\nFor more details see Maykut and Untersteiner (1971), Bitz and Lipscomb (1999), Lipscomb (1998) (same as CESM1.2)."
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.energy.enthalpy_formulation": {
+            "values": [
+                "Pure ice latent and sensible heat + explicit brine inclusions (Bitz and Lipscomb)"
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.energy.thermal_conductivity": {
+            "values": [
+                "Saline ice"
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.energy.heat_diffusion": {
+            "values": [
+                "Conduction fluxes"
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.energy.basal_heat_flux": {
+            "values": [
+                "Same as CICE4 in CESM1.2"
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.energy.fixed_salinity_value": {
+            "values": [
+                "Same as CICE4 in CESM1.2"
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.energy.heat_content_of_precipitation": {
+            "values": [
+                "Same as CESM1.2."
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.energy.precipitation_effects_on_salinity": {
+            "values": [
+                "The snowfall precipitation rate (provided as liquid water equivalent and converted by the ice model to snow depth) also contributes to the heat and water mass budgets of the ice layers. Melt ponds generally form on the ice surface in the Arctic and refreeze later in the fall, reducing the total amount of fresh water that reaches the ocean and altering the heat budget of the ice; this version includes a simple melt pond parameterization. Rain and all melted snow end up in the ocean (same as CESM1.2)."
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.mass.new_ice_formation": {
+            "values": [
+                "The new ice is grown in the open water area of the gird cell to a specified minimum thickness; if the open water area is nearly zero or if there is more new ice than will fit into the thinnest ice category, then the new ice is spread over the entire cell (same as CESM1.2)."
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.mass.ice_vertical_growth_and_melt": {
+            "values": [
+                "Ice vertically grow and melt by bottom & surface fluxes (same as CESM1.2)."
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.mass.ice_lateral_melting": {
+            "values": [
+                "Floe-size dependent (Bitz et al 2001)"
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.mass.ice_surface_sublimation": {
+            "values": [
+                "Same as CICE4 in CESM1.2"
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.mass.frazil_ice": {
+            "values": [
+                "Same as CICE4 in CESM1.2"
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.salt.sea_ice_salinity_thermal_impacts": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.salt.mass_transport.salinity_type": {
+            "values": [
+                "Prescribed salinity profile"
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.salt.mass_transport.additional_details": {
+            "values": [
+                "The vertical salinity profile is prescribed and is unchanging in time. \nFor more details, see equation (56) in [CICE: the Los Alamos Sea Ice Model Documentation and Software User\u2019s Manual Version 4.1] (same as CESM1.2)."
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.salt.thermodynamics.salinity_type": {
+            "values": [
+                "Prescribed salinity profile"
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.salt.thermodynamics.additional_details": {
+            "values": [
+                "The vertical salinity profile is prescribed and is unchanging in time. \nFor more details, see equation (56) in [CICE: the Los Alamos Sea Ice Model Documentation and Software User\u2019s Manual Version 4.1] (same as CESM1.2)."
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.ice_thickness_distribution.representation": {
+            "values": [
+                "Explicit"
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.ice_floe_size_distribution.representation": {
+            "values": [
+                "Parameterised"
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.ice_floe_size_distribution.additional_details": {
+            "values": [
+                "Effective floe diameter for later melt is a constant value of 300m. Floe shape constant for lateral melt is 0.66.\nFor more details, see Steele (1992) (same as CESM1.2)."
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.melt_ponds.are_included": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.melt_ponds.formulation": {
+            "values": [
+                "Level-ice melt ponds"
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.melt_ponds.impacts": {
+            "values": [
+                "Albedo"
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.snow_processes.has_snow_aging": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.snow_processes.snow_aging_scheme": {
+            "values": [
+                "Same as CICE4 in CESM1.2"
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.snow_processes.has_snow_ice_formation": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.snow_processes.snow_ice_formation_scheme": {
+            "values": [
+                "Same as CICE4 in CESM1.2"
+            ]
+        }, 
+        "cmip6.seaice.thermodynamics.snow_processes.redistribution": {
+            "values": [
+                "Snow fraction that survives in ridging is a constant value of 0.5"
+            ]
+        }, 
+        "cmip6.seaice.radiative_processes.name": {
+            "values": [
+                "Delta-Eddinton shortwave radiation"
+            ]
+        }, 
+        "cmip6.seaice.radiative_processes.overview": {
+            "values": [
+                "A Delta-Eddington scheme uses multiple scattering parameterization for solar radiation.\nFor more details, see Briegleb and Light (2007) (same as CESM1.2)."
+            ]
+        }, 
+        "cmip6.seaice.radiative_processes.surface_albedo": {
+            "values": [
+                "Delta-Eddington"
+            ]
+        }
+    }
+}

@@ -62,7 +62,7 @@
         }, 
         "cmip6.toplevel.key_properties.software_properties.components_structure": {
             "values": [
-                "SEM0 consists of seven geophysical models: atmosphere (SAM0-UNICON), sea-ice (CICE4), land(CLM4.0), river-runoff (RTM), ocean (POP2) and land-ice (RTM), plus a coupler (CPL7) that coordinates the geophysics models time evolution and passes information between them. During the course of a SEM0 run, the model components integrate forward in time, periodically stopping to exchange information with the coupler."
+                "SEM0 consists of seven geophysical models: atmosphere (SAM0-UNICON), sea-ice (CICE4), land(CLM4.0), river-runoff (RTM), ocean (POP2) and land-ice (RTM), plus a coupler (CPL7) that coordinates the geophysics models time evolution and passes information between them. During the course of a SEM0 run, the model components integrate forward in time, periodically stopping to exchange information with the coupler (same as CESM1.2)."
             ]
         }, 
         "cmip6.toplevel.key_properties.software_properties.coupler": {

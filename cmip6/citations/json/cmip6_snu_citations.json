@@ -1,0 +1,70 @@
+{
+    "mipEra": "cmip6", 
+    "institute": "snu", 
+    "seedingSource": "Spreadsheet", 
+    "content": [
+        {
+            "mnemonic": "Park_etal_2019", 
+            "doi": "https://doi.org/10.1175/JCLI-D-18-0796.1", 
+            "bibtex": "\"@article{doi:10.1175/JCLI-D-18-0796.1,\nauthor = {Park, Sungsu and Shin, Jihoon and Kim, Siyun and Oh, Eunsil and Kim, Yoonjae},\ntitle = {Global Climate Simulated by the Seoul National University Atmosphere Model Version 0 with a Unified Convection Scheme (SAM0-UNICON)},\njournal = {Journal of Climate},\nvolume = {32},\nnumber = {10},\npages = {2917-2949},\nyear = {2019},\ndoi = {10.1175/JCLI-D-18-0796.1},\nURL = {https://doi.org/10.1175/JCLI-D-18-0796.1},\neprint = {https://doi.org/10.1175/JCLI-D-18-0796.1}\n}\"", 
+            "url": "https://journals.ametsoc.org/doi/full/10.1175/JCLI-D-18-0796.1", 
+            "long_name": "Paper with full description of CMIP6 simulation results"
+        }, 
+        {
+            "mnemonic": "Park_2014a", 
+            "doi": "https://doi.org/10.1175/JAS-D-13-0233.1", 
+            "bibtex": "\"@article{doi:10.1175/JAS-D-13-0233.1,\nauthor = {Park, Sungsu},\ntitle = {A Unified Convection Scheme (UNICON). Part I: Formulation},\njournal = {Journal of the Atmospheric Sciences},\nvolume = {71},\nnumber = {11},\npages = {3902-3930},\nyear = {2014},\ndoi = {10.1175/JAS-D-13-0233.1},\nURL = {https://doi.org/10.1175/JAS-D-13-0233.1},\neprint = {https://doi.org/10.1175/JAS-D-13-0233.1}\n}\"", 
+            "url": "https://journals.ametsoc.org/doi/full/10.1175/JAS-D-13-0233.1", 
+            "long_name": "Paper about UNICON"
+        }, 
+        {
+            "mnemonic": "Park_2014b", 
+            "doi": "https://doi.org/10.1175/JAS-D-13-0234.1", 
+            "bibtex": "\"@article{doi:10.1175/JAS-D-13-0234.1,\nauthor = {Park, Sungsu},\ntitle = {A Unified Convection Scheme (UNICON). Part II: Simulation},\njournal = {Journal of the Atmospheric Sciences},\nvolume = {71},\nnumber = {11},\npages = {3931-3973},\nyear = {2014},\ndoi = {10.1175/JAS-D-13-0234.1},\nURL = {https://doi.org/10.1175/JAS-D-13-0234.1},\neprint = {https://doi.org/10.1175/JAS-D-13-0234.1}\n}\"", 
+            "url": "https://journals.ametsoc.org/doi/full/10.1175/JAS-D-13-0234.1", 
+            "long_name": "Paper about UNICON"
+        }, 
+        {
+            "mnemonic": "Park_etal_2017", 
+            "doi": "https://doi.org/10.1002/2016MS000877", 
+            "bibtex": "\"@article{doi:10.1002/2016MS000877,\nauthor = {Park, Sungsu and Baek, Eun-Hyuk and Kim, Baek-Min and Kim, Seong-Joong},\ntitle = {Impact of detrained cumulus on climate simulated by the Community Atmosphere Model Version 5 with a unified convection scheme},\njournal = {Journal of Advances in Modeling Earth Systems},\nvolume = {9},\nnumber = {2},\npages = {1399-1411},\nkeywords = {detrained cumulus, unified convection, low-level cloud, parameterization},\ndoi = {10.1002/2016MS000877},\nurl = {https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1002/2016MS000877},\neprint = {https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1002/2016MS000877},\nyear = {2017}\n}\"", 
+            "url": "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2016MS000877", 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "CICE4_2011", 
+            "doi": null, 
+            "bibtex": "\"@article{baileycommunity,\n  title={Community Ice CodE (CICE) User\u2019s Guide Version 4.0 Released with CESM1. 0},\n  author={Bailey, David and Holland, Marika and Hunke, Elizabeth and Lipscomb, Bill and Briegleb, Bruce and Bitz, Cecilia and Schramm, Julie}\n}\"", 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "Park_etal_2014", 
+            "doi": "https://doi.org/10.1175/JCLI-D-14-00087.1", 
+            "bibtex": "\"@article{park2014integrating,\n  title={Integrating cloud processes in the Community Atmosphere Model, version 5},\n  author={Park, Sungsu and Bretherton, Christopher S and Rasch, Philip J},\n  journal={Journal of Climate},\n  volume={27},\n  number={18},\n  pages={6821--6856},\n  year={2014}\n}\"", 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "MAM3_2010", 
+            "doi": null, 
+            "bibtex": "\"@article{liu2010modal,\n  title={A modal aerosol model implementation in the community atmosphere model, version 5 (CAM5)},\n  author={Liu, X and Ghan, S},\n  journal={J. Atmos. Sci},\n  year={2010}\n}\"", 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "CPL7_2012", 
+            "doi": "https://doi.org/10.1177/1094342011428141", 
+            "bibtex": "\"@article{craig2012new,\n  title={A new flexible coupler for earth system modeling developed for CCSM4 and CESM1},\n  author={Craig, Anthony P and Vertenstein, Mariana and Jacob, Robert},\n  journal={The International Journal of High Performance Computing Applications},\n  volume={26},\n  number={1},\n  pages={31--42},\n  year={2012},\n  publisher={Sage Publications Sage UK: London, England}\n}\"", 
+            "url": null, 
+            "long_name": null
+        }, 
+        {
+            "mnemonic": "POP2_2010", 
+            "doi": null, 
+            "bibtex": "\"@article{smith2010parallel,\n  title={The parallel ocean program (POP) reference manual: ocean component of the community climate system model (CCSM) and community earth system model (CESM)},\n  author={Smith, R and Jones, P and Briegleb, B and Bryan, F and Danabasoglu, G and Dennis, J and Dukowicz, J and Eden, C and Fox-Kemper, B and Gent, P and others},\n  journal={Rep. LAUR-01853},\n  volume={141},\n  pages={1--140},\n  year={2010}\n}\"", 
+            "url": null, 
+            "long_name": null
+        }
+    ]
+}

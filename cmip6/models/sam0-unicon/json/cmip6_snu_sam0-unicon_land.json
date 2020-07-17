@@ -5,6 +5,51 @@
     "sourceID": "sam0-unicon", 
     "topic": "land", 
     "content": {
+        "cmip6.land.key_properties.name": {
+            "values": [
+                "Community Land Model version 4 (CLM4)"
+            ]
+        }, 
+        "cmip6.land.key_properties.keywords": {
+            "values": [
+                "Same as CLM4 in CESM1.2."
+            ]
+        }, 
+        "cmip6.land.key_properties.overview": {
+            "values": [
+                "Same as CLM4 in CESM1.2."
+            ]
+        }, 
+        "cmip6.land.key_properties.description": {
+            "values": [
+                "Same as CLM4 in CESM1.2."
+            ]
+        }, 
+        "cmip6.land.key_properties.conservation_properties.energy": {
+            "values": [
+                "Same as CLM4 in CESM1.2."
+            ]
+        }, 
+        "cmip6.land.key_properties.conservation_properties.water": {
+            "values": [
+                "Same as CLM4 in CESM1.2."
+            ]
+        }, 
+        "cmip6.land.key_properties.conservation_properties.carbon": {
+            "values": [
+                "Same as CLM4 in CESM1.2."
+            ]
+        }, 
+        "cmip6.land.key_properties.timestepping_framework.timestepping_method": {
+            "values": [
+                "Same as CLM4 in CESM1.2."
+            ]
+        }, 
+        "cmip6.land.key_properties.tuning_applied.description": {
+            "values": [
+                "Same as CLM4 in CESM1.2."
+            ]
+        }, 
         "cmip6.land.grid.name": {
             "values": [
                 "Cartesian latitude longitude "
@@ -26,6 +71,156 @@
             ]
         }, 
         "cmip6.land.grid.vertical.description": {
+            "values": [
+                "Same as CLM4 in CESM1.2."
+            ]
+        }, 
+        "cmip6.land.soil.name": {
+            "values": [
+                "Same as CLM4 in CESM1.2."
+            ]
+        }, 
+        "cmip6.land.soil.overview": {
+            "values": [
+                "Same as CLM4 in CESM1.2."
+            ]
+        }, 
+        "cmip6.land.soil.prognostic_variables": {
+            "values": [
+                "Same as CLM4 in CESM1.2."
+            ]
+        }, 
+        "cmip6.land.soil.soil_map.description": {
+            "values": [
+                "Same as CLM4 in CESM1.2."
+            ]
+        }, 
+        "cmip6.land.soil.hydrology.description": {
+            "values": [
+                "Same as CLM4 in CESM1.2."
+            ]
+        }, 
+        "cmip6.land.soil.hydrology.drainage.description": {
+            "values": [
+                "Same as CLM4 in CESM1.2."
+            ]
+        }, 
+        "cmip6.land.soil.heat_treatment.description": {
+            "values": [
+                "Same as CLM4 in CESM1.2."
+            ]
+        }, 
+        "cmip6.land.snow.name": {
+            "values": [
+                "Same as CLM4 in CESM1.2."
+            ]
+        }, 
+        "cmip6.land.snow.overview": {
+            "values": [
+                "Same as CLM4 in CESM1.2."
+            ]
+        }, 
+        "cmip6.land.snow.tiling": {
+            "values": [
+                "Same as CLM4 in CESM1.2."
+            ]
+        }, 
+        "cmip6.land.vegetation.name": {
+            "values": [
+                "Same as CLM4 in CESM1.2."
+            ]
+        }, 
+        "cmip6.land.vegetation.overview": {
+            "values": [
+                "Same as CLM4 in CESM1.2."
+            ]
+        }, 
+        "cmip6.land.energy_balance.name": {
+            "values": [
+                "Same as CLM4 in CESM1.2."
+            ]
+        }, 
+        "cmip6.land.energy_balance.overview": {
+            "values": [
+                "Same as CLM4 in CESM1.2."
+            ]
+        }, 
+        "cmip6.land.carbon_cycle.name": {
+            "values": [
+                "Same as CLM4 in CESM1.2."
+            ]
+        }, 
+        "cmip6.land.carbon_cycle.overview": {
+            "values": [
+                "Same as CLM4 in CESM1.2."
+            ]
+        }, 
+        "cmip6.land.carbon_cycle.vegetation.photosynthesis.method": {
+            "values": [
+                "Same as CLM4 in CESM1.2."
+            ]
+        }, 
+        "cmip6.land.carbon_cycle.vegetation.autotrophic_respiration.maintainance_respiration": {
+            "values": [
+                "Same as CLM4 in CESM1.2."
+            ]
+        }, 
+        "cmip6.land.carbon_cycle.vegetation.allocation.method": {
+            "values": [
+                "Same as CLM4 in CESM1.2."
+            ]
+        }, 
+        "cmip6.land.carbon_cycle.vegetation.phenology.method": {
+            "values": [
+                "Same as CLM4 in CESM1.2."
+            ]
+        }, 
+        "cmip6.land.carbon_cycle.vegetation.mortality.method": {
+            "values": [
+                "Same as CLM4 in CESM1.2."
+            ]
+        }, 
+        "cmip6.land.carbon_cycle.litter.method": {
+            "values": [
+                "Same as CLM4 in CESM1.2."
+            ]
+        }, 
+        "cmip6.land.carbon_cycle.soil.method": {
+            "values": [
+                "Same as CLM4 in CESM1.2."
+            ]
+        }, 
+        "cmip6.land.nitrogen_cycle.name": {
+            "values": [
+                "Same as CLM4 in CESM1.2."
+            ]
+        }, 
+        "cmip6.land.nitrogen_cycle.overview": {
+            "values": [
+                "Same as CLM4 in CESM1.2."
+            ]
+        }, 
+        "cmip6.land.river_routing.name": {
+            "values": [
+                "RTM"
+            ]
+        }, 
+        "cmip6.land.river_routing.overview": {
+            "values": [
+                "Same as RTM in CESM1.2."
+            ]
+        }, 
+        "cmip6.land.lakes.name": {
+            "values": [
+                "Same as CLM4 in CESM1.2."
+            ]
+        }, 
+        "cmip6.land.lakes.overview": {
+            "values": [
+                "Same as CLM4 in CESM1.2."
+            ]
+        }, 
+        "cmip6.land.lakes.wetlands.description": {
             "values": [
                 "Same as CLM4 in CESM1.2."
             ]

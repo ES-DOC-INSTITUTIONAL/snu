@@ -5,6 +5,198 @@
     "sourceID": "sam0-unicon", 
     "topic": "ocean", 
     "content": {
+        "cmip6.ocean.key_properties.name": {
+            "values": [
+                "Parallel Ocean Program (POP)"
+            ]
+        }, 
+        "cmip6.ocean.key_properties.keywords": {
+            "values": [
+                "Hydrostatic and Boussinesq approximations"
+            ]
+        }, 
+        "cmip6.ocean.key_properties.overview": {
+            "values": [
+                "The POP model is a descendant of the Bryan-Cox-Semtner class of models (Semtner, 1986). An implicit free surface formulation and other numerical improvements were added by Bukowicz and Smith (1994) and the capability for general orthogonal coordinates for the horizontal mesh was implemented by Smith (Smith et al., 1995). \n\nIn CMIP6 experiments, we used an identical ocean model (POP2) in CESM1.2.\nHence, all contents are based on POP documents, \nespecially [The Parallel Ocean Program (POP) Reference Manual (2010)].\nThis document is available at [http://www.cesm.ucar.edu/models/cesm1.2/pop2/doc/sci/POPRefManual.pdf]. "
+            ]
+        }, 
+        "cmip6.ocean.key_properties.model_family": {
+            "values": [
+                "OGCM"
+            ]
+        }, 
+        "cmip6.ocean.key_properties.basic_approximations": {
+            "values": [
+                "Primitive equations", 
+                "Boussinesq"
+            ]
+        }, 
+        "cmip6.ocean.key_properties.prognostic_variables": {
+            "values": [
+                "Potential temperature", 
+                "Salinity", 
+                "U-velocity", 
+                "V-velocity", 
+                "SSH: Sea Surface Height"
+            ]
+        }, 
+        "cmip6.ocean.key_properties.seawater_properties.eos_type": {
+            "values": [
+                "Mc Dougall et al."
+            ]
+        }, 
+        "cmip6.ocean.key_properties.seawater_properties.eos_functional_temp": {
+            "values": [
+                "Potential temperature"
+            ]
+        }, 
+        "cmip6.ocean.key_properties.seawater_properties.eos_functional_salt": {
+            "values": [
+                "Practical salinity Sp"
+            ]
+        }, 
+        "cmip6.ocean.key_properties.seawater_properties.eos_functional_depth": {
+            "values": [
+                "Depth (meters)"
+            ]
+        }, 
+        "cmip6.ocean.key_properties.seawater_properties.ocean_freezing_point": {
+            "values": [
+                "Other: linear function of salinity"
+            ]
+        }, 
+        "cmip6.ocean.key_properties.seawater_properties.ocean_specific_heat": {
+            "values": [
+                3996
+            ]
+        }, 
+        "cmip6.ocean.key_properties.seawater_properties.ocean_reference_density": {
+            "values": [
+                1000
+            ]
+        }, 
+        "cmip6.ocean.key_properties.bathymetry.reference_dates": {
+            "values": [
+                "Present day"
+            ]
+        }, 
+        "cmip6.ocean.key_properties.bathymetry.type": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.ocean.key_properties.bathymetry.ocean_smoothing": {
+            "values": [
+                "Same as POP2 in CESM1.2"
+            ]
+        }, 
+        "cmip6.ocean.key_properties.bathymetry.source": {
+            "values": [
+                "ETOPO2v2 (Same as default bathymetry of POP2 in CESM1.2)"
+            ]
+        }, 
+        "cmip6.ocean.key_properties.nonoceanic_waters.isolated_seas": {
+            "values": [
+                "The Red Sea, Baltic Sea and Black Seas are identified as isolated basins with no hydrodynamical connection to the open ocean. With these isolated basis, salt conservation is artificially imposed by discharge/recharge to predetermined open ocean coastlines."
+            ]
+        }, 
+        "cmip6.ocean.key_properties.nonoceanic_waters.river_mouth": {
+            "values": [
+                "Same as default setting in POP2 in CESM1.2"
+            ]
+        }, 
+        "cmip6.ocean.key_properties.software_properties.code_version": {
+            "values": [
+                "POP2"
+            ]
+        }, 
+        "cmip6.ocean.key_properties.software_properties.code_languages": {
+            "values": [
+                "Fortran"
+            ]
+        }, 
+        "cmip6.ocean.key_properties.resolution.name": {
+            "values": [
+                "gx1v6"
+            ]
+        }, 
+        "cmip6.ocean.key_properties.resolution.canonical_horizontal_resolution": {
+            "values": [
+                "1 degree"
+            ]
+        }, 
+        "cmip6.ocean.key_properties.resolution.range_horizontal_resolution": {
+            "values": [
+                "1.125 degree in zonal, 28(Equator)-72(high latitude) km in meridional"
+            ]
+        }, 
+        "cmip6.ocean.key_properties.resolution.number_of_horizontal_gridpoints": {
+            "values": [
+                122880
+            ]
+        }, 
+        "cmip6.ocean.key_properties.resolution.number_of_vertical_levels": {
+            "values": [
+                60
+            ]
+        }, 
+        "cmip6.ocean.key_properties.resolution.is_adaptive_grid": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.ocean.key_properties.resolution.thickness_level_1": {
+            "values": [
+                10
+            ]
+        }, 
+        "cmip6.ocean.key_properties.tuning_applied.description": {
+            "values": [
+                "Same as POP2 in CESM1.2"
+            ]
+        }, 
+        "cmip6.ocean.key_properties.tuning_applied.global_mean_metrics_used": {
+            "values": [
+                "Same as POP2 in CESM1.2"
+            ]
+        }, 
+        "cmip6.ocean.key_properties.tuning_applied.regional_metrics_used": {
+            "values": [
+                "Same as POP2 in CESM1.2"
+            ]
+        }, 
+        "cmip6.ocean.key_properties.tuning_applied.trend_metrics_used": {
+            "values": [
+                "Same as POP2 in CESM1.2"
+            ]
+        }, 
+        "cmip6.ocean.key_properties.conservation.description": {
+            "values": [
+                "Model based on the Bryan-Cox-Semtner algorithms with corresponding conservation properties."
+            ]
+        }, 
+        "cmip6.ocean.key_properties.conservation.scheme": {
+            "values": [
+                "Energy", 
+                "Volume of ocean", 
+                "Salt"
+            ]
+        }, 
+        "cmip6.ocean.key_properties.conservation.consistency_properties": {
+            "values": [
+                "Same as POP2 in CESM1.2"
+            ]
+        }, 
+        "cmip6.ocean.key_properties.conservation.corrected_conserved_prognostic_variables": {
+            "values": [
+                "Same as POP2 in CESM1.2"
+            ]
+        }, 
+        "cmip6.ocean.key_properties.conservation.was_flux_correction_used": {
+            "values": [
+                "Same as POP2 in CESM1.2"
+            ]
+        }, 
         "cmip6.ocean.grid.name": {
             "values": [
                 "gx1v6"
@@ -36,6 +228,433 @@
             ]
         }, 
         "cmip6.ocean.grid.discretisation.horizontal.scheme": {
+            "values": [
+                "Same as POP2 in CESM1.2"
+            ]
+        }, 
+        "cmip6.ocean.timestepping_framework.name": {
+            "values": [
+                "Leapfrog"
+            ]
+        }, 
+        "cmip6.ocean.timestepping_framework.overview": {
+            "values": [
+                "Three-time-level second-order-accurate modified leap-frog scheme for stepping forward in time (same as CESM1.2)."
+            ]
+        }, 
+        "cmip6.ocean.timestepping_framework.diurnal_cycle": {
+            "values": [
+                "Via coupling: Diurnal cycle via coupling frequency"
+            ]
+        }, 
+        "cmip6.ocean.timestepping_framework.tracers.scheme": {
+            "values": [
+                "Other: Leapfrog with Robert filter"
+            ]
+        }, 
+        "cmip6.ocean.timestepping_framework.tracers.time_step": {
+            "values": [
+                3600
+            ]
+        }, 
+        "cmip6.ocean.timestepping_framework.baroclinic_dynamics.type": {
+            "values": [
+                "Other: the semi-implicit treatment"
+            ]
+        }, 
+        "cmip6.ocean.timestepping_framework.baroclinic_dynamics.scheme": {
+            "values": [
+                "Other: Leapfrog with Robert filter"
+            ]
+        }, 
+        "cmip6.ocean.timestepping_framework.baroclinic_dynamics.time_step": {
+            "values": [
+                3600
+            ]
+        }, 
+        "cmip6.ocean.timestepping_framework.barotropic.splitting": {
+            "values": [
+                "Implicit"
+            ]
+        }, 
+        "cmip6.ocean.timestepping_framework.barotropic.time_step": {
+            "values": [
+                3600
+            ]
+        }, 
+        "cmip6.ocean.timestepping_framework.vertical_physics.method": {
+            "values": [
+                "Same as CESM1.2."
+            ]
+        }, 
+        "cmip6.ocean.advection.name": {
+            "values": [
+                "Second-order centered scheme and Third-order upwind advection scheme"
+            ]
+        }, 
+        "cmip6.ocean.advection.overview": {
+            "values": [
+                "Second-order centered advection scheme (for momentum advection) and Third-order upwind advection scheme (for tracers) (same as CESM1.2)."
+            ]
+        }, 
+        "cmip6.ocean.advection.momentum.type": {
+            "values": [
+                "Flux form"
+            ]
+        }, 
+        "cmip6.ocean.advection.momentum.scheme_name": {
+            "values": [
+                "Second-order centered scheme"
+            ]
+        }, 
+        "cmip6.ocean.advection.momentum.ALE": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.ocean.advection.lateral_tracers.order": {
+            "values": [
+                3
+            ]
+        }, 
+        "cmip6.ocean.advection.lateral_tracers.flux_limiter": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.ocean.advection.lateral_tracers.name": {
+            "values": [
+                "upwind3"
+            ]
+        }, 
+        "cmip6.ocean.advection.lateral_tracers.passive_tracers": {
+            "values": [
+                "Ideal age", 
+                "CFC 11", 
+                "CFC 12"
+            ]
+        }, 
+        "cmip6.ocean.advection.vertical_tracers.name": {
+            "values": [
+                "upwind3"
+            ]
+        }, 
+        "cmip6.ocean.lateral_physics.name": {
+            "values": [
+                "Gent-McWilliams parameterization"
+            ]
+        }, 
+        "cmip6.ocean.lateral_physics.overview": {
+            "values": [
+                "Same as POP2 in CESM1.2"
+            ]
+        }, 
+        "cmip6.ocean.lateral_physics.scheme": {
+            "values": [
+                "None: No transient eddies in ocean"
+            ]
+        }, 
+        "cmip6.ocean.lateral_physics.momentum.operator.direction": {
+            "values": [
+                "Horizontal"
+            ]
+        }, 
+        "cmip6.ocean.lateral_physics.momentum.operator.order": {
+            "values": [
+                "Harmonic: Second order"
+            ]
+        }, 
+        "cmip6.ocean.lateral_physics.momentum.operator.discretisation": {
+            "values": [
+                "Second order: Second order"
+            ]
+        }, 
+        "cmip6.ocean.lateral_physics.momentum.eddy_viscosity_coeff.type": {
+            "values": [
+                "Other: anisotropic, spatially varying"
+            ]
+        }, 
+        "cmip6.ocean.lateral_physics.momentum.eddy_viscosity_coeff.constant_coefficient": {
+            "values": [
+                "Same as POP2 in CESM1.2"
+            ]
+        }, 
+        "cmip6.ocean.lateral_physics.momentum.eddy_viscosity_coeff.variable_coefficient": {
+            "values": [
+                "Same as POP2 in CESM1.2"
+            ]
+        }, 
+        "cmip6.ocean.lateral_physics.momentum.eddy_viscosity_coeff.coeff_background": {
+            "values": [
+                "Same as POP2 in CESM1.2"
+            ]
+        }, 
+        "cmip6.ocean.lateral_physics.momentum.eddy_viscosity_coeff.coeff_backscatter": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.ocean.lateral_physics.tracers.mesoscale_closure": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.ocean.lateral_physics.tracers.submesoscale_mixing": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.ocean.lateral_physics.tracers.operator.direction": {
+            "values": [
+                "Isopycnal"
+            ]
+        }, 
+        "cmip6.ocean.lateral_physics.tracers.operator.order": {
+            "values": [
+                "Harmonic: Second order"
+            ]
+        }, 
+        "cmip6.ocean.lateral_physics.tracers.operator.discretisation": {
+            "values": [
+                "Second order: Second order"
+            ]
+        }, 
+        "cmip6.ocean.lateral_physics.tracers.eddy_diffusity_coeff.type": {
+            "values": [
+                "Other: spatially and temporally varing following the Near-Surface Eddy Flux Parameterization and Buoyancy-profile dependency in the vertical"
+            ]
+        }, 
+        "cmip6.ocean.lateral_physics.tracers.eddy_diffusity_coeff.variable_coefficient": {
+            "values": [
+                "Same as POP2 in CESM1.2"
+            ]
+        }, 
+        "cmip6.ocean.lateral_physics.tracers.eddy_induced_velocity.type": {
+            "values": [
+                "GM: Gent & McWilliams"
+            ]
+        }, 
+        "cmip6.ocean.lateral_physics.tracers.eddy_induced_velocity.flux_type": {
+            "values": [
+                "Same as POP2 in CESM1.2"
+            ]
+        }, 
+        "cmip6.ocean.lateral_physics.tracers.eddy_induced_velocity.added_diffusivity": {
+            "values": [
+                "Same as POP2 in CESM1.2"
+            ]
+        }, 
+        "cmip6.ocean.vertical_physics.name": {
+            "values": [
+                "K-profile Parameterization (KPP)"
+            ]
+        }, 
+        "cmip6.ocean.vertical_physics.overview": {
+            "values": [
+                "KPP provides all the coefficients required to compute the vertical mixing contributions to the friction and diffusive terms.\nFor more details, see POP2 documents or Large et al. (1994) (same as POP2 in CESM1.2)."
+            ]
+        }, 
+        "cmip6.ocean.vertical_physics.boundary_layer_mixing.details.langmuir_cells_mixing": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.ocean.vertical_physics.boundary_layer_mixing.tracers.type": {
+            "values": [
+                "Turbulent closure - KPP"
+            ]
+        }, 
+        "cmip6.ocean.vertical_physics.boundary_layer_mixing.tracers.closure_order": {
+            "values": [
+                1
+            ]
+        }, 
+        "cmip6.ocean.vertical_physics.boundary_layer_mixing.tracers.background": {
+            "values": [
+                "Determined by matching to the interior diffusivities"
+            ]
+        }, 
+        "cmip6.ocean.vertical_physics.boundary_layer_mixing.momentum.type": {
+            "values": [
+                "Turbulent closure - KPP"
+            ]
+        }, 
+        "cmip6.ocean.vertical_physics.boundary_layer_mixing.momentum.closure_order": {
+            "values": [
+                1
+            ]
+        }, 
+        "cmip6.ocean.vertical_physics.boundary_layer_mixing.momentum.background": {
+            "values": [
+                "Determined by matching to the interior viscosities"
+            ]
+        }, 
+        "cmip6.ocean.vertical_physics.interior_mixing.details.convection_type": {
+            "values": [
+                "Enhanced vertical diffusion"
+            ]
+        }, 
+        "cmip6.ocean.vertical_physics.interior_mixing.details.tide_induced_mixing": {
+            "values": [
+                "The tidally driven vertical mixing parameterization of Laurent was implemented in a similar fasion as in Simmons et al. (2004).\nFor more details, see POP2 documents or Jayne (2009) and Laurent et al. (2002)."
+            ]
+        }, 
+        "cmip6.ocean.vertical_physics.interior_mixing.details.double_diffusion": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.ocean.vertical_physics.interior_mixing.details.shear_mixing": {
+            "values": [
+                true
+            ]
+        }, 
+        "cmip6.ocean.vertical_physics.interior_mixing.tracers.type": {
+            "values": [
+                "Other: Shear mixing + internal wave breaking + tidal mixing + double diffusion + convection"
+            ]
+        }, 
+        "cmip6.ocean.vertical_physics.interior_mixing.tracers.profile": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.ocean.vertical_physics.interior_mixing.tracers.background": {
+            "values": [
+                "Background mixing varies in latitude from 0.01x10^-4 at the equator to a maximum of 0.30x10^-4 at about 30 degrees of latitude. At mid-latitudes, it is 0.17 x10-4. There is also enhanced diffusivity of 1x10^-4  in the Banda Sea."
+            ]
+        }, 
+        "cmip6.ocean.vertical_physics.interior_mixing.momentum.type": {
+            "values": [
+                "Other: Shear mixing + internal wave breaking + tidal mixing + convection"
+            ]
+        }, 
+        "cmip6.ocean.vertical_physics.interior_mixing.momentum.profile": {
+            "values": [
+                "No"
+            ]
+        }, 
+        "cmip6.ocean.vertical_physics.interior_mixing.momentum.background": {
+            "values": [
+                "Same as POP2 in CESM1.2"
+            ]
+        }, 
+        "cmip6.ocean.uplow_boundaries.name": {
+            "values": [
+                "The KPP Boundary-Layer Parameterization"
+            ]
+        }, 
+        "cmip6.ocean.uplow_boundaries.overview": {
+            "values": [
+                "Same as POP2 in CESM1.2"
+            ]
+        }, 
+        "cmip6.ocean.uplow_boundaries.free_surface.scheme": {
+            "values": [
+                "Linear implicit"
+            ]
+        }, 
+        "cmip6.ocean.uplow_boundaries.free_surface.embeded_seaice": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.ocean.uplow_boundaries.bottom_boundary_layer.overview": {
+            "values": [
+                "none"
+            ]
+        }, 
+        "cmip6.ocean.uplow_boundaries.bottom_boundary_layer.type_of_bbl": {
+            "values": [
+                "Other: None"
+            ]
+        }, 
+        "cmip6.ocean.uplow_boundaries.bottom_boundary_layer.sill_overflow": {
+            "values": [
+                "Same as POP2 in CESM1.2"
+            ]
+        }, 
+        "cmip6.ocean.boundary_forcing.name": {
+            "values": [
+                "no-slip"
+            ]
+        }, 
+        "cmip6.ocean.boundary_forcing.overview": {
+            "values": [
+                "Same as POP2 in CESM1.2"
+            ]
+        }, 
+        "cmip6.ocean.boundary_forcing.surface_pressure": {
+            "values": [
+                "No interaction"
+            ]
+        }, 
+        "cmip6.ocean.boundary_forcing.momentum_flux_correction": {
+            "values": [
+                "Same as POP2 in CESM1.2."
+            ]
+        }, 
+        "cmip6.ocean.boundary_forcing.tracers_flux_correction": {
+            "values": [
+                "Same as POP2 in CESM1.2."
+            ]
+        }, 
+        "cmip6.ocean.boundary_forcing.wave_effects": {
+            "values": [
+                "None"
+            ]
+        }, 
+        "cmip6.ocean.boundary_forcing.river_runoff_budget": {
+            "values": [
+                "Same as POP2 in CESM1.2."
+            ]
+        }, 
+        "cmip6.ocean.boundary_forcing.geothermal_heating": {
+            "values": [
+                "No geothermal heating"
+            ]
+        }, 
+        "cmip6.ocean.boundary_forcing.momentum.bottom_friction.type": {
+            "values": [
+                "Constant drag coefficient"
+            ]
+        }, 
+        "cmip6.ocean.boundary_forcing.momentum.lateral_friction.type": {
+            "values": [
+                "No-slip"
+            ]
+        }, 
+        "cmip6.ocean.boundary_forcing.tracers.sunlight_penetration.scheme": {
+            "values": [
+                "2 extinction depth"
+            ]
+        }, 
+        "cmip6.ocean.boundary_forcing.tracers.sunlight_penetration.ocean_colour": {
+            "values": [
+                false
+            ]
+        }, 
+        "cmip6.ocean.boundary_forcing.tracers.sunlight_penetration.extinction_depth_description": {
+            "values": [
+                "Same as POP2 in CESM1.2"
+            ]
+        }, 
+        "cmip6.ocean.boundary_forcing.tracers.sunlight_penetration.extinction_depths": {
+            "values": [
+                "Same as POP2 in CESM1.2"
+            ]
+        }, 
+        "cmip6.ocean.boundary_forcing.tracers.fresh_water_forcing.from_atmopshere": {
+            "values": [
+                "Virtual salt flux"
+            ]
+        }, 
+        "cmip6.ocean.boundary_forcing.tracers.fresh_water_forcing.from_sea_ice": {
+            "values": [
+                "Virtual salt flux"
+            ]
+        }, 
+        "cmip6.ocean.boundary_forcing.tracers.fresh_water_forcing.forced_mode_restoring": {
             "values": [
                 "Same as POP2 in CESM1.2"
             ]
